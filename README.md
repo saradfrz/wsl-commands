@@ -2,21 +2,56 @@
 
 <a name="table-of-contents"></a>
 ## Table of Contents
-[Configure SSH in WSL](#ssh-wsl) 
-[Folder commands](#folder-commands)  
-[File commands](#file-commands)  
+
+- [Shortcuts](#shortcuts)
+- [Terminal](#terminal)
+- [Folder commands](#folder-commands)  
+- [File commands](#file-commands)
+- [Configure workspace](#ssh-wsl)
+    - [Configure SSH Keys](#ssh-wsl) 
+
+<a name="shortcuts"></a>
+## Shortcuts
+* Kill program execution
+<br><code><i>ctrl + c</i></code>
+* Clean terminal
+<br><code><i>ctrl + l</i></code>
+* Autofill
+<br><code><i>Tab</i></code>
+* Run in the background
+<br><code><i>ctrl + z</i></code>
+* Exit
+<br><code><i>ctrl + d</i></code>
+* Move the cursor to the beginning of the line
+<br><code><i>ctrl + a</i></code>
+* Move the cursor to the end of the line
+<br><code><i>ctrl + e</i></code>
+* Clean from current position to the beginning
+<br><code><i>ctrl + u</i></code>
+* Clean entire current line
+<br><code><i>ctrl + k</i></code>
+* Clean current word
+<br><code><i>ctrl + w</i></code>
+* Paste deleted code
+<br><code><i>ctrl + y</i></code>
+* See last command
+<br><code><i>ctrl + p</i></code>
+* See neat historic command
+<br><code><i>ctrl + p</i></code>
+
+[Back to top](#file-commands) 
 
 
-<a name="ssh-wsl"></a>
-## Configure SSH in WS
-* Step-by-Step
-<br><code>sudo apt remove openssh-server</code>
-<br><code>sudo apt install openssh-server</code>
-<br><code>sudo nano /etc/ssh/sshd_config</code>
-AllowUsers <your_username>
+<a name="terminal"></a>
+## Terminal
+* Get the current working directory
+<br><code>pwd</code>
+* Go to new directory
+<br><code>cd <i>new\directory</i></code>
+* View the contents of a directory
+<br><code>ls</code>
 
-
-
+[Back to top](#file-commands) 
 
 <a name="folder-commands"></a>
 ## Folder Commands
@@ -33,3 +68,15 @@ AllowUsers <your_username>
 ## File Commands
 * New folder
 <br><code>touch <i>filename</i></code>
+
+<a name="working-spacel"></a>
+## Configure working space
+
+<a name="ssh-wsl"></a>
+### Configure SSH in WS
+* Step-by-Step
+<br><code>sudo apt remove openssh-server</code>
+<br><code>sudo apt install openssh-server</code>
+<br><code>sudo nano /etc/ssh/sshd_config</code>
+
+[Back to top](#file-commands) 
